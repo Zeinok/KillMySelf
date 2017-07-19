@@ -1,0 +1,2 @@
+# KillMySelf
+KMS activation script.
