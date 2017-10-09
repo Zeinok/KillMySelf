@@ -61,7 +61,7 @@ if %nopause%==0 (
     echo.
 )
 if defined OS (
-    call :%OS% 2>nul || echo Sorry, no KMS key available for this Windows product. & set err=2 || goto :end
+    call :%OS% 2>nul || echo Sorry, no KMS key available for this Windows product. && goto :end && set err=2
 	call :kms 
 )
 :end
