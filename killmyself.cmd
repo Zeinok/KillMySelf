@@ -124,6 +124,9 @@ goto :EOF
 :Windows_10_Education_Insider_Preview
 cscript.exe //nologo slmgr.vbs /ipk NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
 goto :EOF
+:Windows_10_Pro_for_Workstations
+cscript.exe //nologo slmgr.vbs /ipk NRG8B-VKK3Q-CXVCJ-9G2XF-6Q84J
+goto :EOF
 :Windows_10_Pro
 cscript.exe //nologo slmgr.vbs /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
 goto :EOF
